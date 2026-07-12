@@ -40,7 +40,6 @@ while True:
     garagem = input('Digite se o imóvel possui garagem (Sim/Não): ')
     tipo = input('Digite o tipo do imóvel (Apartamento/Casa): ')
 
-    # --- Seus blocos de match/if ---
     match acabamento:
         case 'Ruim': 
             acabamento = 3
